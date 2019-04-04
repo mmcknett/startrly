@@ -1,0 +1,52 @@
+#navbar {
+    display: grid;
+    grid-template-columns: 20%, 20%, 20%, 20%, 20%;
+    grid-template-rows: 100%;
+    list-style-type: none;
+}
+
+.navbutton {
+    grid-column-end: span 1;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Arial";
+}
+
+#button1 {
+    grid-column-start: 1;
+}
+
+#button2 {
+    grid-column-start: 4;
+}
+
+#button3 {
+    grid-column-start: 5;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Dokdo";
+}
+
+sub {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Dokdo";
+}
+
+#cta {
+    border-radius: 8px;
+    border-color: #2038e8;
+
+}
+
+#ctaSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
